@@ -70,7 +70,7 @@ let innoStudents = ["Mihir", "Saikiran", "Ansh", "Rakesh", "Kartheek"];
 // let double = numbers.map((num) => (num * 2));
 // console.log(double);
 
-//filter(): Creates a new array with all elements that pass the test implemented by the prov7ided function.
+//filter(): Creates a new array with all elements that pass the test implemented by the provided function.
 // let evenNumbers = numbers.filter((even) => even % 2 !== 0);
 // console.log(evenNumbers);
 

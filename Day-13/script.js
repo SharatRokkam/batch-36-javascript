@@ -7,12 +7,12 @@
 // Window vs document (important)
 
 // 4 Pillars of DOM 
-// 1. DOM - checked
+// 1. DOM - 
 // 2. Selecting of a particular element
 // 3. Accessing the elements and changing the elements
 // 4. change the style of the document/ element 
 
-// Selecting a particular 5 methods 
+// Selecting a particular element-  5 methods 
 // 1. getElementbyId
 // 2. getElementsbyClassName
 // 3. getElementsbyTagName
@@ -45,12 +45,27 @@
 // const myOl = document.querySelector('img[src='img.jpg']');
 
 
-const myOl = document.querySelector('ol');
-// console.log(myOl);
-const listItem = myOl.querySelector('li');
+// const myOl = document.querySelector('ol');
+// // console.log(myOl);
+// const listItem = myOl.querySelector('li');
 
-listItem.style.color = 'red';
-listItem.style.backgroundColor = 'black';
-listItem.style.border = '2px solid yellow';
-listItem.style.borderRadius = '20px';
+// listItem.style.color = 'red';
+// listItem.style.backgroundColor = 'black';
+// listItem.style.border = '2px solid yellow';
+// listItem.style.borderRadius = '20px';
 
+
+const listItems = document.querySelectorAll('#items')
+
+// console.log(listItems);
+
+listItems.forEach(function(li){
+    li.style.color = 'white';
+    li.style.backgroundColor = 'tomato';
+    li.style.border = '2px solid black';
+    li.style.borderRadius = '10px';
+    li.style.display = 'inline-block';
+    li.style.padding = '20px'
+})
+
+// listItems.style.backgroundColor = 'tomato';

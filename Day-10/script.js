@@ -106,6 +106,7 @@ let array2 = [20, 30, 40];
 
 let array3 = [31, 32, 33];
 
+// Array Destructuring with spread operator
 let newArray = [...array2, ...array3]
 console.log(newArray);
 // console.log(concatedArray);
